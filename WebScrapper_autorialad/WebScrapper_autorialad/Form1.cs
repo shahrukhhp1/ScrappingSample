@@ -37,7 +37,7 @@ namespace WebScrapper_autorialad
         {
             label2.Text = "Started";
             label2.Refresh();
-            driver.Navigate().GoToUrl("");
+            driver.Navigate().GoToUrl("{your URL here}"); // could be something like http://test.com
 
             var company = extensionss.FindElement(driver, "//*[@id=\"inst\"]", 5);
             if (company == null)
