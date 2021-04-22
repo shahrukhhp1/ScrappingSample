@@ -37,7 +37,7 @@ namespace WebScrapper_autorialad
         {
             label2.Text = "Started";
             label2.Refresh();
-            driver.Navigate().GoToUrl("http://autorialadi.extra.bcv.org.ve/operadorAladi/busqfecautorizacionaladi.jsp");
+            driver.Navigate().GoToUrl("");
 
             var company = extensionss.FindElement(driver, "//*[@id=\"inst\"]", 5);
             if (company == null)
